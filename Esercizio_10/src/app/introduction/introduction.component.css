@@ -1,0 +1,32 @@
+@font-face {
+    font-family: MUSEO;
+    src: url(../../assets/LTMuseum-BoldItalic.ttf);
+  }
+h1 {
+    width: 1550px;
+    height: 60px;
+    background: black;
+    position:relative ;
+    animation-name: animazione;
+    animation-duration: 1s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+  @keyframes animazione {
+    from {top: -320px; background-color: orangered;}
+    to {top: -7px; background-color: orange;}
+  }
+  h2 {
+    width: 1500px;
+    height: 0px;
+    background: black;
+    position:relative ;
+    animation-name: animazione1;
+    animation-duration: 1s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+  @keyframes animazione1 {
+    from {top: -3320px; background-color: black;}
+    to {top: -7px; background-color: white;}
+  }
