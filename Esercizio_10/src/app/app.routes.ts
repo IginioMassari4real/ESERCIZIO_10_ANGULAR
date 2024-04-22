@@ -3,4 +3,4 @@ import { ListComponentComponent } from './list/list-component.component';
 import { MostreComponentComponent } from './mostre/mostre-component.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 
-export const routes: Routes = [{path: 'listaMostre', component: ListComponentComponent}, {path: 'Mostre', component: MostreComponentComponent} ,{ path: 'Home', component:IntroductionComponent} ];
+export const routes: Routes = [{path: 'listaMostre', component: ListComponentComponent}, {path: 'Mostre/:id', component: MostreComponentComponent} ,{ path: 'Home', component:IntroductionComponent} ];

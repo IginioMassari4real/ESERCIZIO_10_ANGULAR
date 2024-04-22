@@ -27,4 +27,8 @@ export class ListComponentComponent {
    {nome:"", artisti:"", descrizione:"", datainizio: new Date(2024, 5, 1), datafine: new Date(2024, 5, 1), immagine:"",},
 
   ]
+
+  routing(id:any){
+    window.location.href="/Mostre/" + id;
+  }
 }
