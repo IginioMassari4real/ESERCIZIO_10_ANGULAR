@@ -16,3 +16,10 @@
     from {top: -320px; background-color: orangered;}
     to {top: -7px; background-color: orange;}
   }
+  .button_1{
+    color: lightseagreen; 
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif; 
+    font-size: x-large; 
+    border: 0px;
+    background-color: transparent;
+}

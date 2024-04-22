@@ -9,7 +9,7 @@ h1 {
     position:relative ;
     animation-name: animazione;
     animation-duration: 1s;  
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-fill-mode: both;
   }
   @keyframes animazione {
@@ -23,7 +23,7 @@ h1 {
     position:relative ;
     animation-name: animazione1;
     animation-duration: 1s;  
-    animation-delay: 1s;
+    animation-delay: 0s;
     animation-fill-mode: both;
   }
   @keyframes animazione1 {

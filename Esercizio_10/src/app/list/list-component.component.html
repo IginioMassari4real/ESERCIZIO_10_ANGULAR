@@ -3,10 +3,10 @@
 <h1 align="center" style="background-color: orange; color: white; font-family: MUSEO; font-size: xxx-large;">MOSTRE DISPONIBILI (7):</h1>
 <br>
 <div *ngFor="let element of mostre; index as i">
-    <div class="card mb-3" style="width: 1530px; height: 380px;  background-color: darkred; ">
+    <div class="card mb-3" style="width: 1530px; height: 400px;  background-color: darkred; ">
         <div class="row g-0">
           <div class="col-md-4">
-            <img class="card-img-top" src="{{element.immagine}}" alt="Card image" style="height: 50vh; ">
+            <img class="card-img-top" src="{{element.immagine}}" alt="Card image" style="height: 57vh; ">
           </div>
           <div class="col-md-8">
             <div class="card-body" style="font-family: MUSEO; color: white;">
@@ -17,7 +17,7 @@
             <p>- BREVE DESCRIZIONE MOSTRA: {{element.descrizione}} </p>
             <p>- DATA INIZIO MOSTRA: {{element.datainizio | date:'longDate'}}</p>
             <p>- DATA FINE MOSTRA: {{element.datafine | date :'longDate'}} </p>
-            <button (click)="routing(i)" class="button_1" style="font-family: MUSEO;" href="#" routerLink="/Home" >Home</button>
+            <button (click)="routing(i)" class="button_1" style="font-family: MUSEO;" href="#" routerLink="/Mostre" >Scopri di più</button>
             </div>
           </div>
         </div>

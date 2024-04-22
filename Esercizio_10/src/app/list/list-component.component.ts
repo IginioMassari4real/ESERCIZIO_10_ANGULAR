@@ -22,9 +22,9 @@ export class ListComponentComponent {
 
    {nome:"L'unificazione italiana", artisti:"Giuseppe Garibaldi, Giuseppe Mazzini, Camillo Benso di Cavour", descrizione:"Rivivi il momento del risorgimento italiano, un periodo di fervore nazionale e lotta per l'unificazione d'Italia. Esplora le figure chiave, gli eventi e le idee che hanno portato alla creazione dello stato italiano moderno", datainizio: new Date(2024, 5, 3), datafine: new Date(2024, 5, 10), immagine:"https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/01/Battaglia-di-Calatafimi-copertina.jpg?im=AspectCrop=(16,9);",},
 
-   {nome:"", artisti:"", descrizione:"", datainizio: new Date(2024, 5, 1), datafine: new Date(2024, 5, 1), immagine:"",},
+   {nome:"Napoleone: Mito e Realità", artisti:"Jacques-Louis David, Antoine-Jean Gros, Jean-Auguste-Dominique Ingres, Francisco Goya, Horace Vernet", descrizione:"Un'esposizione che esplora la vita, il potere e l'eredità di Napoleone Bonaparte, il leggendario leader francese del XIX secolo, attraverso opere d'arte, documenti storici e reperti.", datainizio: new Date(2024, 5, 5), datafine: new Date(2024, 5, 13), immagine:"https://c4.wallpaperflare.com/wallpaper/778/793/66/jacques-louis-david-bonaparte-franchissant-le-grand-saint-bernard-artwork-oil-painting-wallpaper-preview.jpg",},
 
-   {nome:"", artisti:"", descrizione:"", datainizio: new Date(2024, 5, 1), datafine: new Date(2024, 5, 1), immagine:"",},
+   {nome:"Gli splendori dell'antica Grecia", artisti:"Fidia, Prassitele, Zeusi, Apele, Erotodo, Tucidide, Socrate, Platone e Aristotele", descrizione:"Esplora l'Antica Grecia in mostra: arte, mitologia, pensiero e sport che hanno influenzato il mondo occidentale.", datainizio: new Date(2024, 6, 7), datafine: new Date(2024, 6, 14), immagine:"https://w0.peakpx.com/wallpaper/389/964/HD-wallpaper-ancient-greece-greece-8k.jpg",},
 
   ]
 
