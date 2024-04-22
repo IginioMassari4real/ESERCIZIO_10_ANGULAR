@@ -1,0 +1,25 @@
+<br>
+<br>
+<div class="card mb-3" style="width: 1540px; height: 500px;  background-color: darkred; ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img class="card-img-top" src="{{immagine}}" alt="Card image" style="height: 71vh; ">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body" style="font-family: MUSEO; color: white;">
+          <h2 align="center" style="color: white; margin-left:auto; margin-right:auto; font-family: MUSEO; font-size: xxx-large;">{{nome|uppercase}}</h2>
+          <p style="font-family: MUSEO; font-size: x-large;">INFORMAZIONI PIU' APPROFONDITE DELLA MOSTRA:</p>
+          <p>NOME MOSTRA: {{nome}}</p>
+          <p>ARTISTI PRINCIPALI: {{artisti}}</p>
+          <p>DESCRIZIONE MOSTRA: {{descrizione}}</p>
+          <p>DATA INIZIO: {{datainizio | date:'longDate'}}</p>
+          <p>DATA FINE: {{datafine | date:'longDate'}}</p>
+          <p>COSTO DELLA MOSTRA: {{costo | currency: 'EUR' : 'symbol'}}</p>
+          <p>DOVE ?: a {{citta}}</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>

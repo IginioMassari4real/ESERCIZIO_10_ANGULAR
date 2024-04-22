@@ -4,6 +4,8 @@
 .cover{
     background-image: url('https://c4.wallpaperflare.com/wallpaper/360/952/950/military-artistic-army-banner-canon-hd-wallpaper-preview.jpg');
     background-size: cover;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
 }
 @font-face {
@@ -22,7 +24,7 @@
     font-size: x-large;
 }
 div {
-    width: 1530px;
+    width: 1500px;
     height: 70px;
     background: black;
     position:relative ;
