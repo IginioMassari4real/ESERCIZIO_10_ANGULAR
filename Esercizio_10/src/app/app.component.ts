@@ -15,6 +15,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'Esercizio_10';
 
+
   bottone:boolean=true
 
   onRiceviDati(value: any){
