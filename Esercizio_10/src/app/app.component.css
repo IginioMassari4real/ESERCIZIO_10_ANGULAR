@@ -1,8 +1,38 @@
 .container-fluid{
-    background-color: orange;
+    background-color: white;
 }
 .cover{
     background-image: url('https://c4.wallpaperflare.com/wallpaper/360/952/950/military-artistic-army-banner-canon-hd-wallpaper-preview.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+@font-face {
+    font-family: MUSEO;
+    src: url(../assets/LTMuseum-BoldItalic.ttf);
+  }
+.button_1{
+    color: white; 
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif; 
+    font-size: x-large; 
+    border: 0px;
+    background-color: transparent;
+}
+.button_1:hover{
+    color: black; 
+    font-size: x-large;
+}
+div {
+    width: 1530px;
+    height: 70px;
+    background: black;
+    position:relative ;
+    animation-name: animazione;
+    animation-duration: 1s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes animazione {
+    from {top: -110px; background-color: orange;}
+    to {top: -4px; background-color: orangered;}
+  }

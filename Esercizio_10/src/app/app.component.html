@@ -1,11 +1,14 @@
-<div class="container-fluid, cover" >
-<app-navigation (mandaDatiEvento)="onRiceviDati($event)"></app-navigation>
-<div *ngIf = "bottone; then bloccoInizio; else elseblock1"></div>
-<ng-template #bloccoInizio>
-<app-introduction></app-introduction>
-</ng-template>
-<ng-template #elseblock1 >
-<app-list-component></app-list-component>
-</ng-template>
+<div class="container-fluid, cover">
+    <nav class="navbar navbar-expand-lg navbar-light" style="color:orangered">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="margin-left: 45%;">
+            <button class="button_1" style="font-family: MUSEO;" href="#" routerLink="/Home" >Home</button>
+            <button class="button_1" style="font-family: MUSEO;" href="#" routerLink="/listaMostre">Mostre</button>
+          </div>
+        </div>
+      </nav>
+<router-outlet></router-outlet>
 </div>
-    
