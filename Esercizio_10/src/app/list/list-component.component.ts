@@ -12,7 +12,7 @@ export class ListComponentComponent {
 
   mostre = [
 
-   {nome:"L'età del Rinascimento", artisti:"Leonardo Da Vinci, Michelangelo, Raffaello, Sandro Botticelli", descrizione:"Esplora il periodo del rinascimento in Europa, caratterizzato dal rinnovamento culturale e scientifico.", datainizio: new Date(2024, 4, 1), datafine: new Date(2024, 6, 8), immagine:"https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/05/storia-rinascimento-italiano.jpg",},
+   {nome:"L'età del Rinascimento", artisti:"Leonardo Da Vinci, Michelangelo, Raffaello, Sandro Botticelli", descrizione:"Esplora il periodo del rinascimento in Europa, caratterizzato dal rinnovamento culturale e scientifico.", datainizio: new Date(2024, 4, 1), datafine: new Date(2024, 6, 8), immagine:"https://upload.wikimedia.org/wikipedia/commons/a/a0/Ideal_City_%28detail%29.jpg",},
 
    {nome:"L'eta della rivoluzione", artisti:"Galileo Galilei, Isaac Newton, Voltaire, Thomas Jefferson", descrizione:"Rivivi l'evoluzione del pensiero scientifico e politico durante il XVII e il XVIII secolo, esplorando le idee che hanno guidato le rivoluzioni intellettuali, scientifiche e politiche in tutto il mondo.", datainizio: new Date(2024, 4, 2), datafine: new Date(2024, 6, 9), immagine:"https://cdn.studenti.stbm.it/images/2019/03/19/galileo-galilei-e-il-suo-telescopio_600x400.jpeg",},
 
