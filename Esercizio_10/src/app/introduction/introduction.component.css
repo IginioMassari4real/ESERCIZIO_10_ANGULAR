@@ -27,6 +27,6 @@ h1 {
     animation-fill-mode: both;
   }
   @keyframes animazione1 {
-    from {top: -3320px; background-color: black;}
+    from {top: 3320px; background-color: black;}
     to {top: -7px; background-color: white;}
   }

@@ -30,6 +30,6 @@
     animation-fill-mode: both;
   }
   @keyframes animazione1 {
-    from {top: -3320px; background-color: blue;}
+    from {top: 3320px; background-color: blue;}
     to {top: -7px; background-color: lightblue;}
   }
