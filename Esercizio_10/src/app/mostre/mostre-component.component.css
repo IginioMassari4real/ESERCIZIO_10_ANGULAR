@@ -19,3 +19,17 @@
     from {top: -320px; background-color: green;}
     to {top: -7px; background-color: lightgreen;}
   }
+  h2 {
+    width: 100%;
+    height: 60px;
+    background: black;
+    position:relative ;
+    animation-name: animazione1;
+    animation-duration: 1s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+  @keyframes animazione1 {
+    from {top: -3320px; background-color: blue;}
+    to {top: -7px; background-color: lightblue;}
+  }
